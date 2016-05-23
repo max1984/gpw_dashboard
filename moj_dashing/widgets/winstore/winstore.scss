@@ -1,0 +1,42 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color: #75A3FF;
+$title-color:       #000;
+ 
+// ----------------------------------------------------------------------------
+// Widget-comment styles
+// ----------------------------------------------------------------------------
+.widget-winstore { 
+ 
+    background: $background-color url('../assets/windows.svg') no-repeat; background-size: 85%; background-position: 5% 1%;
+ 
+  .title {
+    font-weight: bold;
+    color: $title-color;
+    opacity: .9
+  }
+ 
+  .google-rating-container {
+    div > div {
+      font-size: 24px
+    }
+  }
+ 
+  .google-rating-value {
+    font-size: 76px;
+	color: $title-color;
+    #google-rating-integer-value {
+      font-weight: bold;
+    }
+  }
+ 
+  .google-voters-count {
+    font-size: 1.5em;
+	color: $title-color;
+    #google-voters-count-value {
+      font-weight: bold
+    }
+  }
+ 
+}

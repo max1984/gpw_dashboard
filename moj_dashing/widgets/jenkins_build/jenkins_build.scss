@@ -1,0 +1,41 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #4b5f24;
+
+$title-color:       #000000;
+$moreinfo-color:    #000000;
+
+$meter-background:  rgba(255, 255, 255, 0.7);
+
+// ----------------------------------------------------------------------------
+// Widget-jenkins-build styles
+// ----------------------------------------------------------------------------
+.widget-jenkins-build {
+  background-color: $background-color;
+  background-size: 100%, 100%;
+
+  input.jenkins-build {
+    background-color: $meter-background;
+    color: #47bbb3;
+  }
+
+  .title {
+    color: $title-color;
+    font-size: 35px;
+  }
+
+  .bugs_num{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 25px;
+  }
+
+  .more-info {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+  }
+
+  .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+}

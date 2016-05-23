@@ -1,0 +1,49 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #4b5f24;
+$title-color:       rgba(0, 0, 0, 0.8);
+
+// ----------------------------------------------------------------------------
+// Widget-comment styles
+// ----------------------------------------------------------------------------
+.widget-appstore { 
+  background: $background-color no-repeat; background-size: 100%; background-position: 1% 1%;
+  color: red; 
+  .title {
+    font-weight: bold;
+    color: $title-color;
+  }
+
+  .appstore-rating-container {
+    div > div {
+      font-size: 30px;
+      color: $title-color;
+    }
+  }
+
+  .appstore-rating-value {
+    font-size: 80px;
+    #appstore-rating-integer-value {
+      font-weight: bold;
+      color: $title-color;
+    }
+  }
+
+  .appstore-voters-count p{
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.7);
+    #appstore-voters-count-value {
+      font-weight: bold;
+      color: $title-color;
+    }
+  }
+  .more-info {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  h1{
+    font-size: 40teapx;
+  }
+}
+

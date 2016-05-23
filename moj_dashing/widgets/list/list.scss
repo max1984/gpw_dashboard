@@ -1,11 +1,11 @@
 // ----------------------------------------------------------------------------
 // Sass declarations
 // ----------------------------------------------------------------------------
-$background-color:  #12b0c5;
+$background-color:  #96BF48;
 $value-color:       #fff;
 
-$title-color:       rgba(255, 255, 255, 0.7);
-$label-color:       rgba(255, 255, 255, 0.7);
+$title-color:       rgba(0, 0, 0, 0.7);
+$label-color:       rgba(255, 255, 255, 0.8);
 $moreinfo-color:    rgba(255, 255, 255, 0.7);
 
 // ----------------------------------------------------------------------------
@@ -24,6 +24,7 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
     margin: 0 15px;
     text-align: left;
     color: $label-color;
+    display: inline-block;
   }
 
   ol {
@@ -31,6 +32,7 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
   }
 
   li {
+    display: inline-block;
     margin-bottom: 5px;
   }
 
@@ -43,10 +45,14 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
   }
 
   .value {
-    float: right;
+    text-align: left;
+    float: left;
     margin-left: 12px;
     font-weight: 600;
     color: $value-color;
+  }
+  .value li {
+    display: inline-block;
   }
 
   .updated-at {
@@ -55,6 +61,9 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
 
   .more-info {
     color: $moreinfo-color;
+  }
+  span {
+    float:left 
   }
 
 }

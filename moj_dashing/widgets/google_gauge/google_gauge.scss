@@ -1,32 +1,31 @@
 // ----------------------------------------------------------------------------
 // Sass declarations
 // ----------------------------------------------------------------------------
-$background-color:  #96BF48;
+$background-color:  #33FFFF;
 
-$title-color:       rgba(255, 255, 255, 0.7);
-$moreinfo-color:    rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.3);
+
 
 // ----------------------------------------------------------------------------
-// Widget-text styles
+// Widget-GoogleGauge styles
 // ----------------------------------------------------------------------------
-.widget-text {
+.widget-google-gauge {
 
   background-color: $background-color;
+  position: relative;
 
-  .title {
-    color: $title-color;
+
+  .gauge {
+    position: absolute;
+    left: 200px;
+    top: 0px;
   }
 
   .more-info {
     color: $moreinfo-color;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 0;
   }
 
-  .updated-at {
-    color: rgba(255, 255, 255, 0.7);
-  }
-
-
-  &.large h3 {
-    font-size: 65px;
-  }
 }

@@ -1,32 +1,36 @@
 // ----------------------------------------------------------------------------
 // Sass declarations
 // ----------------------------------------------------------------------------
-$background-color:  #96BF48;
+$background-color: #96BF48;
 
-$title-color:       rgba(255, 255, 255, 0.7);
-$moreinfo-color:    rgba(255, 255, 255, 0.7);
+$full-color:  rgba(255, 255, 255, 1);
+$light-color: rgba(255, 255, 255, 0.7);
 
 // ----------------------------------------------------------------------------
-// Widget-text styles
+// Widget-forecast styles
 // ----------------------------------------------------------------------------
-.widget-text {
+.widget-forecast {
 
   background-color: $background-color;
 
   .title {
-    color: $title-color;
+    color: $light-color;
+    font-size: 45px;
+  }
+
+  .temp {
+    color: $full-color;
+  }
+
+  .summary {
+    color: $light-color;
   }
 
   .more-info {
-    color: $moreinfo-color;
+      color: $light-color;
   }
 
   .updated-at {
-    color: rgba(255, 255, 255, 0.7);
-  }
-
-
-  &.large h3 {
-    font-size: 65px;
+    color: rgba(0, 0, 0, 0.3);
   }
 }
