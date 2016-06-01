@@ -13,7 +13,6 @@ require 'json'
 #        ]
 
 money = URI.parse("http://www.money.pl/")
-puts money
 last = 0
 akcja = [
   {nazwa: 'URSUS', akcja_id: 'URS' },
@@ -58,6 +57,5 @@ SCHEDULER.every '1m', :first_in => 0 do
         end
       end # end of loop for checking each akcja
     end
-
   end
 end
