@@ -8,6 +8,12 @@ money = URI.parse("http://www.money.pl/")
 last = 0
 akcja = [
   {nazwa: 'URSUS', akcja_id: 'URS' },
+  {nazwa: 'PKO BP', akcja_id: 'PKO' },
+  {nazwa: 'PGNiG', akcja_id: 'PGN' },
+  {nazwa: 'KGHM', akcja_id: 'KGH' },
+  {nazwa: 'JSW', akcja_id: 'JSW' },
+  {nazwa: 'ALIOR', akcja_id: 'ALR' },
+  {nazwa: 'AUTO PARTNER', akcja_id: 'APR' },
   {nazwa: 'PKN ORLEN', akcja_id:'PKN'}
 ]
 
